@@ -43,7 +43,7 @@ void process_image_callback(const sensor_msgs::Image img)
 	if (count == 0)
 	{
 		lin_x = 0.0;
-                ang_z = 0.0;
+                ang_z = 0.5;
 	}
 
 	else
